@@ -143,6 +143,42 @@ header {
   transition: color 0.5s;
 }
 
- .nav-link:hover {
-   color: var(--secondary-font-color);
- }
+.nav-link:hover {
+  color: var(--secondary-font-color);
+}
+
+/* Hero section styling */
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url("images/hero.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.sub-headline {
+  font-size: 8.5rem;
+  font-family: var(--secondary-font);
+  color: var(--secondary-font-color);
+  font-weight: 100;
+  line-height: 0.4;
+  letter-spacing: 2px;
+}
+
+.first-letter {
+  text-transform: uppercase;
+  font-size: 9.3rem;
+}
+
+.headline {
+  color: white;
+  font-size: 3.5rem;
+  font-family: var(--main-font);
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  margin-right: -0.5rem;
+}
