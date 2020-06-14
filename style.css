@@ -236,3 +236,18 @@ header {
   letter-spacing: 2px;
   margin-right: -2px;
 }
+
+.cta-btn {
+  font-size: 1.1rem;
+  background-color: white;
+  padding: 0.9rem 1.8rem;
+  color: var(--body-font-color);
+  border-radius: 0.4rem;
+  transition: background-color 0.5s;
+}
+
+.cta-btn:hover,
+.cta-btn:focus {
+  color: white;
+  background-color: var(--secondary-font-color);
+}
